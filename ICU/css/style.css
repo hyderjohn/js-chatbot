@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+	body{
+		/*  */
+		font-family:Arial, sans-serif;
+		margin: 0;
+		background-color:powderblue;
+	}
+	/* this is for designing header */
+	#header{
+		width: 100%;
+		height: 60px;
+		background-color:royalblue;
+		box-shadow: 0px 4px 2px royalblue;
+		}
+		/* styling text to be displayed on header */
+	#header>h1{
+			padding: 13px;
+			width : 1024px;
+			margin: 0px auto;
+			color: white;
+		}
+		/*style for chat box */
+	#container{
+		 width : 1024px;  
+		 height: 500px;
+		 margin: 0px auto;
+		 margin-top: 20px;
+		 background-color: wheat;
+		 border: 1px solid lightslategrey;
+		 overflow: scroll; /* for overflow effect */
+		}	
+/* style for controlls */
+	#controls{
+		 width : 1024px;
+		 margin: 0px auto;
+		}
+		/* style input message box */
+	textarea{
+		height: 30px;
+		resize: none;
+		width: 944px;
+		font-size: 18px;
+	}
+	/* style send button */
+	#send{
+		font-size: 24px;
+		position: absolute;
+	}
+	/*style class username */
+	.username{
+		color:blue;
+		font-weight: bold;
+	}
+	/* style bot class  */
+	.ICU{
+		color: green;
+		font-weight: bold;
+	}
